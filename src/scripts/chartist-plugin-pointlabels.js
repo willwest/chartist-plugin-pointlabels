@@ -40,7 +40,7 @@
               x: data.x2 + options.labelOffset.x,
               y: data.y2 + options.labelOffset.y,
               style: 'text-anchor: ' + options.textAnchor
-            }, options.labelClass).text(options.labelInterpolationFnc(data.value.x === undefined ? '' : data.value.x));
+            }, options.labelClass).text(options.labelInterpolationFnc(data.value.y === undefined ? '' : data.value.y));
           }
         });
       }
